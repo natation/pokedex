@@ -48,7 +48,6 @@
           resetPokemons(payload.pokemons);
           break;
         case PokemonConstants.POKEMON_DETAIL_CHANGE_EVENT:
-        debugger;
           PokemonStore.emit(POKEMON_DETAIL_CHANGE_EVENT);
           break;
       }

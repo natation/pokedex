@@ -4,6 +4,7 @@ $(function() {
   'use strict';
   var Router = ReactRouter.Router;
   var Route = ReactRouter.Route;
+
   var Index = React.createClass({
     render: function(){
       return (

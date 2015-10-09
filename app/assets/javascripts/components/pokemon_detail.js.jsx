@@ -39,7 +39,8 @@
             type: {pokemon.poke_type}<br/>
             attack: {pokemon.attack}<br/>
             defense: {pokemon.defense}<br/>
-          moves: {pokemon.moves}<br/>
+            moves: {pokemon.moves}<br/>
+          <ToysIndex></ToysIndex>
           </div>
         );
       }
