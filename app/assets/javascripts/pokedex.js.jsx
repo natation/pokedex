@@ -8,7 +8,7 @@ $(function() {
     render: function(){
       return (
         <div>
-          <PokemonIndex />
+          <PokemonIndex/>
           {this.props.children}
         </div>
       );

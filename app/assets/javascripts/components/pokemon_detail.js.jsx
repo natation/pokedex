@@ -12,11 +12,12 @@
 
     componentDidMount: function () {
       PokemonStore.addPokemonsIndexChangeListener(this._onChange);
-      ApiUtil.fetchAllPokemons();
+      PokemonStore.addPokemonsDetailChangeListener(this._onChange);
     },
 
     componentWillUnmount: function () {
       PokemonStore.removePokemonsIndexChangeListener(this._onChange);
+      PokemonStore.removePokemonsDetailChangeListener(this._onChange);
     },
 
     getStateFromStore: function () {
